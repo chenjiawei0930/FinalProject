@@ -17,7 +17,7 @@
    output reg [3:0] Life                    //控制血量
    output reg [6:0] d7_1                    //控制7段顯示器
    output reg [1:0] COMM_CLK                //控制哪幾顆7段顯示器
-   input CLK, clear,                        //控制頻率的CLOC以及重新開始按鍵
+   input CLK, clear,                        //控制頻率的CLOCK以及重新開始按鍵
    input Left, Right, Up,Down,              //控制上下左右
 
 1.人物以及掉落物更新模組
@@ -25,7 +25,7 @@
   - e.g: people={00111111} =>代表某一行的第6以及第7燈LED燈會亮
   - reg [7:0] plate 為障礙物的位置 
   - 此模組會依據 input { Left,Right,Up,Down }，分別更新people的值 
-  - 障礙物的值當由上跑至下或由左往右完成後，會再隨機產生一組位置，進行下一次的掉    落物。
+  - 障礙物的值當由上跑至下或由左往右完成後，會再隨機產生一組位置，進行下一次的掉    落物。  
 
 2.遊戲模組
   - 將people輸出給DATA_R，就能顯示人物的位置 (顏色為紅色)
