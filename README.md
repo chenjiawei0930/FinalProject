@@ -1,8 +1,7 @@
 ﻿**Authors: 107321047 107321046 22組**        
  
 **Input/Output unit:**                 
-
-	- 8x8 LED 矩陣，用來顯示對戰畫面。下圖為按下 clear 的初始畫面。
+　　- 8x8 LED 矩陣，用來顯示對戰畫面。下圖為按下 clear 的初始畫面。
 	- ![圖片](/images/img1.jpg)
 	- 七段顯示器，用來顯示存活時間。LED燈，用來顯示血量。
 	- ![圖片](/images/img2.jpg)
@@ -38,8 +37,6 @@
 - 利用CLK累加，並使用秒數轉7段顯示器模組，最後再用7段顯示器暫留模組進行輸出     
 
 4.PIN角對應表                                  
-              
-
     - ![圖片](/images/img3.png)
     - ![圖片](/images/img4.png)
 **Demo video**
