@@ -1,4 +1,4 @@
-﻿**Authors: 107321047 107321046 22組**
+﻿Authors: 107321047 107321046 22組
 **Input/Output unit:**
 	- 8x8 LED 矩陣，用來顯示對戰畫面。下圖為按下 clear 的初始畫面。
 	- ![圖片](/images/img1.jpg)
@@ -7,18 +7,18 @@
 
 
 **功能說明:**
-	- 紅色為人物，要上下左右閃躲來自四面八方的綠色炸彈以及定點炸彈，碰到炸彈會扣血，血量歸零即遊戲結束。
+	紅色為人物，要上下左右閃躲來自四面八方的綠色炸彈以及定點炸彈，碰到炸彈會扣血，血量歸零即遊戲結束。
 
 **程式模組說明:**
 
-  - output reg [7:0] DATA_R, DATA_G, DATA_B  //分別控制個顏色的亮燈情形
-  - output reg [2:0] COMM                    //控制8*8LED矩陣哪一行亮
-  - output reg EN                            //8*8LED的使用必須為1
-  - output reg [3:0] Life                    //控制血量
-  - output reg [6:0] d7_1                    //控制7段顯示器
-  - output reg [1:0] COMM_CLK                //控制哪幾顆7段顯示器
-  - input CLK, clear,                        //控制頻率的CLOC以及重新開始按鍵
-  - input Left, Right, Up,Down,              //控制上下左右
+   output reg [7:0] DATA_R, DATA_G, DATA_B      //分別控制個顏色的亮燈情形
+   output reg [2:0] COMM                        //控制8*8LED矩陣哪一行亮
+   output reg EN                            //8*8LED的使用必須為1
+   output reg [3:0] Life                    //控制血量
+   output reg [6:0] d7_1                    //控制7段顯示器
+   output reg [1:0] COMM_CLK                //控制哪幾顆7段顯示器
+   input CLK, clear,                        //控制頻率的CLOC以及重新開始按鍵
+   input Left, Right, Up,Down,              //控制上下左右
 
 1.人物以及掉落物更新模組
   - reg [7:0] people 為記錄人物的位置
