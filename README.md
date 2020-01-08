@@ -6,8 +6,6 @@
 	- ![圖片](/images/img1.jpg)
 	- 七段顯示器，用來顯示存活時間。LED燈，用來顯示血量。
 	- ![圖片](/images/img2.jpg)
-
-
 **功能說明:**
 	紅色為人物，要上下左右閃躲來自四面八方的綠色炸彈以及定點炸彈，碰到炸彈會扣血，血量歸零即遊戲結束。
 
@@ -44,8 +42,6 @@
 
     - ![圖片](/images/img3.png)
     - ![圖片](/images/img4.png)
-
-
 **Demo video**
 - https://drive.google.com/file/d/1YVclNP5fJDwicwQuKd08m4VIE4x9nCq/view?usp=sharing
 
