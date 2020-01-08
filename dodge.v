@@ -1,7 +1,7 @@
 module dodge(output reg [7:0] DATA_R, DATA_G, DATA_B,output reg [2:0] COMM,output reg EN, input CLK, clear, Left, Right, Up,Down,
                                                                                     output reg [3:0] Life,
-																												output reg [6:0] d7_1, 
-								                                                            output reg [1:0] COMM_CLK)	;															  
+									output reg [6:0] d7_1,    
+								                    output reg [1:0] COMM_CLK)	;															  
 
 reg [7:0] plate [7:0];
 reg [7:0] people [7:0];
