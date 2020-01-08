@@ -12,7 +12,7 @@
 **程式模組說明:**              
 　 
    
- >  output reg [7:0] DATA_R, DATA_G, DATA_B	分別控制個顏色的亮燈情形  
+ >  output reg [7:0] DATA_R, DATA_G, DATA_B	                                              //分別控制個顏色的亮燈情形  
  >  output reg [2:0] COMM                      								//控制8*8LED矩陣哪一行亮        
  >  output reg EN                                    						 //8*8LED的使用必須為1     
     output reg [3:0] Life                          							  //控制血量          
