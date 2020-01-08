@@ -45,7 +45,7 @@
     ![圖片](/images/img4.png)  
     
 **Demo video**
-- https://drive.google.com/file/d/1YVclNP5fJDwicwQuKd08m4VIE4x9nCq/view?usp=sharing
+ - https://drive.google.com/open?id=1YVclNP5fJD-wicwQuKd08m4VIE4x9nCq
 
 
 
