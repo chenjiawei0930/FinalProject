@@ -1,12 +1,12 @@
 **Authors: 107321047 107321046**
 - Input/Output unit:
-	- 8x8 LED �x�}�A�Ψ���ܹ�Եe���C�U�Ϭ����U clear ����l�e���C
-	- ![�Ϥ�](/images/img1)
-	- �C�q��ܾ��A�Ψ���ܦs���ɶ��CLED�O�A�Ψ���ܦ�q�C
-	- ![�Ϥ�](/images/img2)
+	- 8x8 LED 矩陣，用來顯示對戰畫面。下圖為按下 clear 的初始畫面。
+	- ![圖片](/images/img1.jpg)
+	- 七段顯示器，用來顯示存活時間。LED燈，用來顯示血量。
+	- ![圖片](/images/img2.jpg)
 
 
-- �\�໡��:
-	- ���⬰�H���A�n�W�U���k�{���Ӧۥ|���K�誺��⬵�u�H�Ωw�I���u�A�I�쬵�u�|����A��q�k�s�Y�C�������C
+- 功能說明:
+	- 紅色為人物，要上下左右閃躲來自四面八方的綠色炸彈以及定點炸彈，碰到炸彈會扣血，血量歸零即遊戲結束。
 
-- �{���Ҳջ���:
+- 程式模組說明:
